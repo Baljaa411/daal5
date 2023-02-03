@@ -1,0 +1,60 @@
+.menu{
+    width: 80%;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu ul{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.menu ul li{
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    list-style: none;
+    background-color: lightgray;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.side{
+    width: 20%;
+    height: 100%;
+    background-color: whitesmoke;
+    display: block;
+    justify-content: center;
+    border: 1px solid black;
+}
+.side ul{
+    width: 90%;
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    gap: 5px;
+}
+.side ul li{
+    border: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    list-style: none;
+  
+}
+.side ul li a{
+    text-decoration: none;
+    color: black;
+}
+.home{
+    width: 1300px;
+    height: 1500px;
+    display: flex;
+    background-color: pink;
+}
